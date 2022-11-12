@@ -6,7 +6,7 @@ name: chd-daka
 on:
   push:
   schedule:
-    - cron: '48 23,6 * * *'
+    - cron: '5 23,4 * * *'
     
 jobs:
   build:
